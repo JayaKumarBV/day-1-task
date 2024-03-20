@@ -1,1 +1,21 @@
-Write a blog on Difference between HTTP1.1 vs HTTP2
+Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+
+
+
+HTTP1.1
+
+    1. It Loads reasources one by one , Like in a queue after one task is completed alone next task is executed
+    2. HTTP 1.1 does not include any in-built features, Because of this HTTP1.1 is slowed than HTTP2
+    3. It was developed in 1997
+    4. Data is compressed by self
+    5. Seprate connection is established for each request & response
+
+
+
+HTTP2
+
+    1. It can use same connection to send multiple streams of data , so no resources are blocked
+    2. HTTP2 is faster than HTTP1.1
+    3. It was developed in 2015
+    4. Data is compressed with help of the method HPACK
+    5. multiple req and response is sent over a single connection.

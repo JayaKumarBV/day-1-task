@@ -1,1 +1,8 @@
-Write a blog about objects and its internal representation in Javascript
+Write a blog about objects and its internal representation in Javascript ?
+
+
+1) Objects are the important data types for building modern block in Javascript
+2) We can call objects as a unordered collection of related data.
+3) if object is a employee it can have properties like name, age, department, salary, gender so methods will be like
+  updatedepartement, update salary.
+4) We access the objects properties with a simple dot-notation objectname.proprtyname ;
